@@ -45,6 +45,8 @@ public class TestCantidades {
 		Pez.crearBacalao("test", 11, "M");
 	}
 	
+	
+	
 	@Test
    	public void testCantidadTotalAnimales(){
 		assertEquals(zoo.cantidadTotalAnimales(), 13, "Hay un problema en el metodo de cantidadTotalAnimales en la clase Zoologico");
